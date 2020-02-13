@@ -1,0 +1,41 @@
+[
+    {
+        "resourceName": "首页",
+        "resourceUrl": "/homePageHospital",
+        "resourceIcon": "el-icon-adm-home"
+    },
+    {
+        "resourceName": "统计",
+        "resourceUrl": "/3",
+        "resourceIcon": "el-icon-adm-statistics",
+        "children": [
+            {
+                "resourceName": "医院统计",
+                "resourceUrl": "/hospitalStatistics"
+            }
+        ]
+    },
+    {
+        "resourceName": "设置",
+        "resourceUrl": "/4",
+        "resourceIcon": "el-icon-setting",
+        "children": [
+            {
+                "resourceName": "角色管理",
+                "resourceUrl": "/roleManage"
+            },
+            {
+                "resourceName": "机构管理",
+                "resourceUrl": "/resourceManage"
+            },
+            {
+                "resourceName": "用户管理",
+                "resourceUrl": "/userManage"
+            },
+            {
+                "resourceName": "企业详情",
+                "resourceUrl": "/companyDetail"
+            }
+        ]
+    }
+]

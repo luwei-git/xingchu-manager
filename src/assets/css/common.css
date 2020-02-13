@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+html{
+    margin: 0 auto;
+    overflow-x: auto;
+}
+body{
+    font-size: 12px;
+    font-family: 微软雅黑,黑体,宋体,arial;
+    /*background: #0a1121;*/
+    width: 100%;
+    max-width: 1920px;
+    /*min-height:800px;*/
+}
+i,em{
+    font-style:normal;
+}
+textarea {
+  resize: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.clearfloat:after{
+  display:block;
+  clear:both;
+  content:"";
+  visibility:hidden;
+  height:0
+}
+.clearfloat{
+  zoom:1
+}
+.main{
+   width:100%;
+   height: 100%;
+   background: #398bf7;
+}
+.main-common{
+    position:absolute;
+    top:60px;
+    bottom:20px;
+    overflow: hidden;
+}
+.top-title-common{
+  font-size: 14px;
+}
+.block {
+  float: right;
+  margin: 10px 40px 30px 0;
+}
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+.el-tree-node__expand-icon{
+  font-size: 16px!important;
+}
+.el-checkbox__inner{
+  height: 16px!important;
+  width: 16px!important;
+}
+.el-tree-node__content{
+  height: 36px!important;
+}
+.el-tree-node__label{
+  font-size: 16px!important;
+}
+.el-checkbox{
+  font-size: 24px!important;
+}
+.isMargin{
+  margin-bottom: 25px;
+}
+.common-border{
+  color: #fff;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.common-border-inner{
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.contentTitleBottom{/* 内容区标题下主要内容公共样式 */
+  height: auto;
+  overflow: hidden;
+  padding: 16px;
+  background-color: #F7F8FA;
+}
+.contentStyle{/*内容区公共样式*/
+  height: auto;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 20px;
+  padding: 0 20px;
+}
+.h100{
+  height: 100%;
+}
+.w100{
+  width: 100%;
+}
+.w33{
+  width: 33.3333%;
+}
+.w25{
+  width: 25%;
+}
+.tal{
+  text-align: left;
+}
+.tac{
+  text-align: center;
+}
+.tar{
+  text-align: right;
+}
+.bgWhite{
+  background-color: #fff;
+}
+.cutOffRule{
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+}
+.por{
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.poalt{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.poart{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.poalb{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.poarb{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.center-y{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.center-x{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.center-xy{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.boxborb{
+  box-sizing: border-box;
+}
+.accountNum .el-checkbox__inner::after {
+  left: 5px;
+}
+/* 搜索模块共有样式 */
+.searchModel{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.searchModel .wordModel{
+
+}
+.searchModel .top{
+  width: 100%;
+  height: 19.45px;
+}
+.searchModel .word{
+  line-height: 30px;
+}
+.searchModel .search, .reset{
+  height: 30px;
+  width: 80px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 20.45px;
+}
+.searchModel .search{
+  background-color: #79ADF8;
+  margin: 20.45px 20px 0;
+}
+.searchModel .reset{
+  background-color: #71DEBF;
+}
+/* 基础色之一 */
+.colorBaseBlue{
+  color: #78ADF9;
+}
+.cursorPointer{
+  cursor: pointer;
+}
